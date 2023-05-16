@@ -1,0 +1,43 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		{
+			"path": "pages/statistics/statistics",
+			"style": {
+				"navigationBarTitleText": "统计"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#cdcdcd",
+		"selectedColor": "#000000",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "签到",
+				"iconPath": "static/images/icons-sign-in.png",
+				"selectedIconPath": "static/images/icons-sign-in-selected.png"
+			},
+			{
+				"pagePath": "pages/statistics/statistics",
+				"text": "统计",
+				"iconPath": "static/images/icon_statistics.png",
+				"selectedIconPath": "static/images/icon_statistics_selected.png"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Weixin",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}

@@ -1,0 +1,31 @@
+/**index.wxss**/
+.tip-text {
+    font-size: 23rpx;
+    color: gray;
+    font-style: italic;
+    text-align: right;
+}
+
+.tip-text::after {
+    content: '修正';
+    text-decoration: underline;
+}
+
+.absent-btn {
+    display: block;
+    margin: auto;
+    transition: background-color 1s;
+    background-color: rgb(240, 169, 111);
+    padding: 105rpx;
+    box-sizing: border-box;
+}
+
+.signed-btn {
+    background-color: rgb(67, 163, 208);
+}
+
+
+
+.absent-btn:active {
+    background-color: rgb(240, 169, 111);
+}
